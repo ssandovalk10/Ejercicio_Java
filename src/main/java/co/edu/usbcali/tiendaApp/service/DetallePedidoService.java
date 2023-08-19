@@ -10,10 +10,11 @@ import java.util.List;
 
 public interface DetallePedidoService {
 
+
     List<DetallePedido> buscarPorIdPedido(Integer id) throws Exception;
     List_detalles del pedido <DetallePedido> buscarPorIdPedido(Integer id) throws Exception;
     DetallePedido buscarPorId(Integer id) throws Exception;
-    DetallePedidoDTO guardar(DetallePedidoDTO detallePedidoDTO) throws Exception;
+
 
 
 }
