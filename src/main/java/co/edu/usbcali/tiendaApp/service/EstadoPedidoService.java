@@ -19,4 +19,6 @@ public interface EstadoPedidoService {
 
     EstadoPedidoDTO actualizar(EstadoPedidoDTO estadoPedidoDTO) throws Exception;
 
+	EstadoPedidoDTO ELIMINAR()
+
 }
