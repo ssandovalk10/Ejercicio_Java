@@ -18,4 +18,7 @@ public class PedidoDTO {
     private BigDecimal total;
     private Integer clienteId;
     private Integer estadoPedidoId;
+#Edicion de PEDIDO
+
+#PEDIDO EDITADO
 }
