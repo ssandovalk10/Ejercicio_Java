@@ -19,7 +19,5 @@ public interface CategoriaService {
     CategoriaDTO actualizar(CategoriaDTO categoriaDTO) throws Exception;
     public String eliminarById(Integer id) throws Exception;
 
-    List<CategoriaDTO> buscarPorNombreLike(String nombre) throws Exception;
 
-    CrearCategoriaResponse crearCategoria(CrearCategoriaRequest crearCategoriaRequest) throws Exception;
 }
