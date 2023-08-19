@@ -16,4 +16,5 @@ public class DetallePedidoDTO {
     private BigDecimal valor;
     private Integer pedidoId;
     private Integer productoId;
+#Update DTO
 }
