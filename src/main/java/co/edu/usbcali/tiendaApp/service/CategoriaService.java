@@ -14,8 +14,7 @@ public interface CategoriaService {
 
     CategoriaDTO guardar(CategoriaDTO categoriaDTO) throws Exception;
 
-    CategoriaDTO actualizar(CategoriaDTO categoriaDTO) throws Exception;
-    public String eliminarById(Integer id) throws Exception;
+
 
 
 }
