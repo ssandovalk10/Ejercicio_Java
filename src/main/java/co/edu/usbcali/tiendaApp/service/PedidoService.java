@@ -6,7 +6,7 @@ import co.edu.usbcali.tiendaApp.dto.PedidoDTO;
 import java.util.List;
 
 public interface PedidoService {
-
+	#Este es un nuevo cambio desde develop
     List<PedidoDTO> obtenerTodos();
     List<Pedido> buscarPorClienteId(Integer id);
     List<Pedido> buscarPorEstadoPedidoId(Integer id);
