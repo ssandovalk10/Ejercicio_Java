@@ -18,6 +18,7 @@ public interface ClienteService {
     CrearClienteResponse crearCliente(CrearClienteRequest crearClienteRequest) throws Exception;
     List<ClienteDTO> buscarPorNombresLike(String nombre) throws Exception;
 
-
+	#Nuevo Cliente
+	ListCLientes
 
 }
